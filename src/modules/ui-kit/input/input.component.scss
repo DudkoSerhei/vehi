@@ -1,0 +1,31 @@
+.container {
+  border-bottom: 2px solid #dedede;
+  transition: border-color .3s ease;
+
+  &_isFocused {
+    border-color: #00bcd4;
+  }
+}
+
+.title {
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 2px;
+  padding-left: 12px;
+}
+
+.input {
+  width: 100%;
+  border: 0;
+  padding-bottom: 3px;
+  outline: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #00bcd4;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 12px;
+}

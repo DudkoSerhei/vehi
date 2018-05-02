@@ -1,0 +1,49 @@
+.container {
+  border-bottom: solid 2px #dedede;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 4px;
+  padding-left: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstButton {
+  position: relative;
+  padding: 0 0 3px 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.secondButton {
+  position: relative;
+  padding: 0 18px 3px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.firstArrow {
+  position: absolute;
+  right: -18px;
+  top: 9px;
+  border: 5px solid transparent;
+  border-top: 5px solid #5a5a5a;
+}
+
+.secondArrow {
+  position: absolute;
+  right: 2px;
+  top: 9px;
+  border: 5px solid transparent;
+  border-top: 5px solid #5a5a5a;
+}

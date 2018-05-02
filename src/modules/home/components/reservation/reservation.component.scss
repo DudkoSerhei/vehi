@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 65px 165px 116px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5a5a5a;
+  margin: -4px 0 22px;
+}
+
+.description {
+  font-size: 18px;
+  color: #5a5a5a;
+  letter-spacing: 0.1px;
+  margin-bottom: 35px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 35px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &Column {
+    margin-left: 22px;
+  }
+
+  &Title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin-bottom: 22px;
+  }
+
+  &Description {
+    font-size: 14px;
+    color: #5a5a5a;
+    width: 410px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+  }
+
+  &Paragraph {
+    display: flex;
+    margin-top: 22px;
+  }
+}
+
+.iconEdit {
+  width: 36px;
+  height: 35px;
+  margin-top: 3px;
+}
+
+.iconHandshake {
+  width: 36px;
+  height: 27px;
+  margin-top: 3px;
+}
+
+.iconRefund {
+  width: 36px;
+  height: 36px;
+  margin-top: 3px;
+}
+
+.form {
+  z-index: 3;
+}
+
+.turquoise {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 626px;
+  min-height: 600px;
+  max-width: 626px;
+  max-height: 600px;
+  z-index: 1;
+}
+
+.purple {
+  position: absolute;
+  right: -78px;
+  top: 76px;
+  width: 412px;
+  height: 412px;
+  z-index: 2;
+}

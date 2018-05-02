@@ -1,0 +1,38 @@
+$cardMargin: 30px;
+$cardCount: 4;
+
+.container {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.main {
+  padding: 0 65px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5a5a5a;
+  margin-bottom: 30px;
+}
+
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  &Card {
+    width: calc((100% - #{$cardMargin} * (#{$cardCount} - 1)) / #{$cardCount});
+    margin-right: $cardMargin;
+    margin-top: $cardMargin;
+  
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  
+    &:nth-child(-n + 4) {
+      margin-top: 0;
+    }
+  }
+}

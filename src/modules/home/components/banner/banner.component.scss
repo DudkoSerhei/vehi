@@ -1,0 +1,57 @@
+.container {
+  padding: 39px 65px 57px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00bcd4;
+  margin-bottom: 44px;
+}
+
+.description {
+  font-size: 24px;
+  color: #5a5a5a;
+  letter-spacing: 0.2px;
+  line-height: 33px;
+  width: 60%;
+}
+
+.banner {
+  width: 609px;
+  height: 194px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 300px;
+}
+
+.multibox {
+  width: 240px;
+}
+
+.selectbox {
+  width: 150px;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 17px;
+  background-color: #00bcd4;
+  padding: 7px 30px;
+}
